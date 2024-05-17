@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["componentes/botones.scss"],"names":[],"mappings":"AAGA,OACI","file":"componentes/botones.css","sourcesContent":["@use 'base/variables' as v;\r\n\r\n\r\n.boton {\r\n    text-align: center;\r\n}"]}

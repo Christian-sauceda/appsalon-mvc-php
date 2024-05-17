@@ -1,0 +1,22 @@
+{
+    "name": "chris/app-salon",
+    "description": "Projecto PHP8 MVC, SQL, SASS, Gulp",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Christian Sauceda"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+            "Model\\": "./models",
+            "Classes\\": "./classes"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+.boton {
+  @include m.boton(v.$verde, v.$blanco);
+  font-size: 1.4rem;
+  border-radius: 0.5rem;
+}
+
+.boton-azul {
+  @include m.boton(v.$azul, v.$blanco);
+  font-size: 1.4rem;
+  border-radius: 0.5rem;
+}
+
+.boton-verde {
+  @include m.boton(v.$verde, v.$blanco);
+  font-size: 1.4rem;
+  border-radius: 0.5rem;
+}
+
+.boton-amarillo {
+  @include m.boton(v.$amarillo, v.$blanco);
+  font-size: 1.4rem;
+  border-radius: 0.5rem;
+
+}
+
+.boton-eliminar {
+  @include m.boton(v.$rojo, v.$blanco);
+  font-size: 1.4rem;
+  border-radius: 0.5rem;
+}
+
